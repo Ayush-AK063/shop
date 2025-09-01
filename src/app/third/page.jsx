@@ -15,15 +15,15 @@ export default function Home() {
               corevist.
             </div>
             {/* Desktop Navigation Links */}
-            <nav className="hidden md:flex items-center space-x-10">
+            <nav className="hidden md:flex items-center gap-7">
               <Link
-                href="#"
+                href="/product1"
                 className="text-blue-700 hover:text-blue-600 transition-colors font-medium text-lg"
               >
                 product 1
               </Link>
               <Link
-                href="#"
+                href="/product2"
                 className="text-blue-700 hover:text-blue-600 transition-colors font-medium text-lg"
               >
                 product 2
